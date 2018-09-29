@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  body .navbar-logo {
+    position: absolute;
+    left: 4%; }
+  body .hamburger-menu {
+    display: block !important;
+    position: absolute;
+    right: 7%;
+    font-size: 3rem;
+    color: #b7b7b7; }
+  body .menu-visible {
+    background: #ffffff; }
+  body .navbar-menu {
+    display: none !important; }
+  body .wrap .slider {
+    width: 100vw; }
+    body .wrap .slider .slide .slide-content .slide-text {
+      font-size: 4rem !important; }
+    body .wrap .slider .slide .slide-content .buttons {
+      display: flex !important;
+      flex-direction: column !important; }
+      body .wrap .slider .slide .slide-content .buttons .btn {
+        margin: 40px auto auto 10px; }
+  body #gallery-section .gallery-wrap .gallery-image {
+    width: 100% !important;
+    margin: 0 !important; }
+  body .input-box {
+    width: 100%;
+    height: auto; }
+    body .input-box .contact-text {
+      font-size: 3rem; }
+    body .input-box .contact-row {
+      display: flex;
+      flex-direction: column-reverse; }
+      body .input-box .contact-row .contact-inputs {
+        align-items: center; } }
