@@ -13,20 +13,20 @@ body header {
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  height: 90px;
+  height: 70px;
   position: fixed;
   z-index: 10;
   background-color: #ffffff; }
   body header a .logo {
-    height: 100px;
-    width: 150px; }
+    height: 50px;
+    width: 100px; }
   body header nav .menu-visible {
-    display: block !important; }
+    display: block; }
   body header nav .navbar-menu {
     text-transform: uppercase;
     display: flex;
     list-style-type: none;
-    font-size: 2.5rem; }
+    font-size: 1.8rem; }
     body header nav .navbar-menu a {
       text-decoration: none;
       color: #cccccc;
@@ -54,15 +54,15 @@ body .wrap {
     width: 0;
     height: 0; }
   body .wrap #arrow-left {
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-right: 40px solid #ffffff;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #ffffff;
     left: 0;
     margin-left: 3%; }
   body .wrap #arrow-right {
-    border-top: 40px solid transparent;
-    border-bottom: 40px solid transparent;
-    border-left: 40px solid #ffffff;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #ffffff;
     right: 0;
     margin-right: 3%; }
   body .wrap .slider .slide {
@@ -78,7 +78,7 @@ body .wrap {
       height: 100%;
       text-align: center; }
       body .wrap .slider .slide .slide-content .slide-text {
-        font-size: 6rem;
+        font-size: 4rem;
         color: #ffffff;
         font-family: 'Montserrat', sans-serif;
         font-weight: bold;
@@ -89,7 +89,7 @@ body .wrap {
         box-sizing: border-box; }
         body .wrap .slider .slide .slide-content .buttons a {
           display: flex;
-          font-size: 2.5rem;
+          font-size: 1.8rem;
           text-decoration: none;
           font-family: 'Quicksand', sans-serif;
           color: #ffffff;
@@ -97,7 +97,7 @@ body .wrap {
           padding: 18px;
           border-radius: 20px;
           margin: 30px;
-          width: 230px;
+          width: 170px;
           transition: all 0.3s ease-in-out; }
         body .wrap .slider .slide .slide-content .buttons a:hover {
           transform: scale(1.05);
@@ -115,10 +115,10 @@ body #gallery-section {
   background: -webkit-linear-gradient(0deg, #fafafa 41%, #e4eaf4 100%);
   background: linear-gradient(0deg, #fafafa 41%, #e4eaf4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#e4eaf4",GradientType=1);
-  padding: 130px 0; }
+  padding: 50px 0; }
   body #gallery-section .gallery-text {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 20px 0; }
   body #gallery-section .gallery-wrap {
     display: flex;
@@ -126,8 +126,8 @@ body #gallery-section {
     justify-content: center;
     align-items: center; }
     body #gallery-section .gallery-wrap .gallery-image {
-      width: 500px;
-      height: 400px;
+      width: 400px;
+      height: 300px;
       padding: 20px;
       object-fit: cover; }
       @media (max-width: 768px) {
@@ -145,15 +145,15 @@ body #contact-form {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 800px; }
+  height: 650px; }
   body #contact-form .input-box {
     display: flex;
     flex-direction: column;
     background-color: #f9f9f9;
-    padding: 60px;
+    padding: 25px;
     justify-content: center;
     align-items: center;
-    font-size: 4.5rem;
+    font-size: 2.5rem;
     border-radius: 20px; }
     body #contact-form .input-box .contact-text {
       margin-bottom: 20px; }
@@ -169,10 +169,10 @@ body #contact-form {
         body #contact-form .input-box .contact-row .contact-inputs input {
           border: none;
           background-color: #dedede;
-          padding: 10px;
+          padding: 8px;
           margin: 5px;
-          width: 350px;
-          font-size: 2rem;
+          width: 250px;
+          font-size: 1.5rem;
           font-family: 'Quicksand', sans-serif;
           border-radius: 10px;
           outline: none; }
@@ -181,10 +181,10 @@ body #contact-form {
         body #contact-form .input-box .contact-row .contact-inputs textarea {
           border: none;
           background-color: #dedede;
-          padding: 10px;
-          font-size: 2rem;
+          padding: 8px;
+          font-size: 1.5rem;
           margin: 5px;
-          width: 350px;
+          width: 250px;
           font-family: 'Montserrat', sans-serif;
           border-radius: 10px;
           resize: none;
@@ -197,7 +197,7 @@ body #contact-form {
           border: none;
           border-radius: 30px;
           padding: 15px;
-          font-size: 2rem;
+          font-size: 1.7rem;
           font-family: 'Montserrat', sans-serif;
           font-weight: bold;
           text-transform: uppercase;
@@ -209,3 +209,40 @@ body #contact-form {
         body #contact-form .input-box .contact-row .contact-inputs .button:hover {
           background-color: #323299;
           transform: scale(1.1); }
+
+body .footer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px; }
+  body .footer .footer-text {
+    font-size: 1.7rem;
+    height: 250px;
+    width: 550px;
+    border-radius: 20px;
+    border: solid 5px #000080;
+    padding: 15px 20px; }
+    body .footer .footer-text .ftext-row {
+      display: flex;
+      padding: 3px; }
+      body .footer .footer-text .ftext-row p {
+        margin-left: 10px;
+        vertical-align: middle; }
+  body .footer .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    body .footer .logo img {
+      width: 80px;
+      height: 80px; }
+  body .footer .mapouter {
+    text-align: right;
+    height: 250px;
+    width: 550px; }
+    body .footer .mapouter .gmap_canvas {
+      overflow: hidden;
+      background: none;
+      border: solid 5px #000080;
+      height: 250px;
+      width: 550px;
+      border-radius: 20px; }

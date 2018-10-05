@@ -16,22 +16,22 @@ body
     width: 100%
     justify-content: space-around
     align-items: center
-    height: 90px
+    height: 70px
     position: fixed
     z-index: 10
     background-color: #ffffff
     a
       .logo
-        height: 100px
-        width: 150px
+        height: 50px
+        width: 100px
     nav
       .menu-visible
-        display: block!important
+        display: block
       .navbar-menu
         text-transform: uppercase
         display: flex
         list-style-type: none
-        font-size: 2.5rem
+        font-size: 1.8rem
         a
           text-decoration: none
           color: #cccccc
@@ -61,15 +61,15 @@ body
       width: 0
       height: 0
     #arrow-left
-      border-top: 40px solid transparent
-      border-bottom: 40px solid transparent
-      border-right: 40px solid #ffffff
+      border-top: 30px solid transparent
+      border-bottom: 30px solid transparent
+      border-right: 30px solid #ffffff
       left: 0
       margin-left: 3%
     #arrow-right
-      border-top: 40px solid transparent
-      border-bottom: 40px solid transparent
-      border-left: 40px solid #ffffff
+      border-top: 30px solid transparent
+      border-bottom: 30px solid transparent
+      border-left: 30px solid #ffffff
       right: 0
       margin-right: 3%
     .slider
@@ -86,7 +86,7 @@ body
           height: 100%
           text-align: center
           .slide-text
-            font-size: 6rem
+            font-size: 4rem
             color: #ffffff
             font-family: 'Montserrat', sans-serif
             font-weight: bold
@@ -97,7 +97,7 @@ body
             box-sizing: border-box
             a
               display: flex
-              font-size: 2.5rem
+              font-size: 1.8rem
               text-decoration: none
               font-family: 'Quicksand', sans-serif
               color: #ffffff
@@ -105,7 +105,7 @@ body
               padding: 18px
               border-radius: 20px
               margin: 30px
-              width: 230px
+              width: 170px
               transition: all 0.3s ease-in-out
               .far
               //   border-right: solid white 1px
@@ -120,6 +120,7 @@ body
         background-image: url("../img/transpBlue75.png"), url("../img/rl-works/img2.jpg")
       .slide3
         background-image: url("../img/transpBlue75.png"), url("../img/rl-works/img3.jpg")
+
   //gallery section
   #gallery-section
     background: rgb(250,250,250)
@@ -127,10 +128,10 @@ body
     background: -webkit-linear-gradient(0deg, rgba(250,250,250,1) 41%, rgba(228,234,244,1) 100%)
     background: linear-gradient(0deg, rgba(250,250,250,1) 41%, rgba(228,234,244,1) 100%)
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fafafa",endColorstr="#e4eaf4",GradientType=1)
-    padding: 130px 0
+    padding: 50px 0
     .gallery-text
       text-align: center
-      font-size: 3rem
+      font-size: 2rem
       padding: 20px 0
     .gallery-wrap
       display: flex
@@ -138,8 +139,8 @@ body
       justify-content: center
       align-items: center
       .gallery-image
-        width: 500px
-        height: 400px
+        width: 400px
+        height: 300px
         padding: 20px
         object-fit: cover
         @media (max-width:768px)
@@ -156,15 +157,15 @@ body
       display: flex
       justify-content: center
       align-items: center
-      height: 800px
+      height: 650px
       .input-box
         display: flex
         flex-direction: column
         background-color: #f9f9f9
-        padding: 60px
+        padding: 25px
         justify-content: center
         align-items: center
-        font-size: 4.5rem
+        font-size: 2.5rem
         border-radius: 20px
         .contact-text
           margin-bottom: 20px
@@ -180,10 +181,10 @@ body
             input
               border: none
               background-color: #dedede
-              padding: 10px
+              padding: 8px
               margin: 5px
-              width: 350px
-              font-size: 2rem
+              width: 250px
+              font-size: 1.5rem
               font-family: 'Quicksand', sans-serif
               border-radius: 10px
               outline: none
@@ -192,10 +193,10 @@ body
             textarea
               border: none
               background-color: #dedede
-              padding: 10px
-              font-size: 2rem
+              padding: 8px
+              font-size: 1.5rem
               margin: 5px
-              width: 350px
+              width: 250px
               font-family: 'Montserrat', sans-serif
               border-radius: 10px
               resize: none
@@ -208,7 +209,7 @@ body
               border: none
               border-radius: 30px
               padding: 15px
-              font-size: 2rem
+              font-size: 1.7rem
               font-family: 'Montserrat', sans-serif
               font-weight: bold
               text-transform: uppercase
@@ -220,3 +221,42 @@ body
             .button:hover
               background-color: #323299
               transform: scale(1.1)
+  //footer
+  .footer
+    background-color:	#ffffff
+    display: flex
+    justify-content: space-between
+    padding: 20px
+    .footer-text
+      font-size: 1.7rem
+      height: 250px
+      width: 550px
+      border-radius: 20px
+      border: solid 5px #000080
+      padding: 15px 20px
+      .ftext-row
+        display: flex
+        padding: 3px
+        p
+          margin-left: 10px
+          vertical-align: middle
+    .logo
+      display: flex
+      flex-direction: column
+      justify-content: center
+      img
+        width: 80px
+        height: 80px
+    .mapouter
+      text-align: right
+      height: 250px
+      width: 550px
+      .gmap_canvas
+        overflow: hidden
+        background: none
+        border: solid 5px #000080
+        height: 250px
+        width: 550px
+        // -webkit-filter: grayscale(50%)
+        // filter: grayscale(50%)
+        border-radius: 20px
