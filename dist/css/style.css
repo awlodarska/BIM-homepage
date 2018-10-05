@@ -130,6 +130,10 @@ body #gallery-section {
       height: 400px;
       padding: 20px;
       object-fit: cover; }
+      @media (max-width: 768px) {
+        body #gallery-section .gallery-wrap .gallery-image {
+          width: 100%;
+          margin: 0; } }
     body #gallery-section .gallery-wrap .gallery-image:hover {
       opacity: .8; }
 

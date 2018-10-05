@@ -21,9 +21,6 @@
       flex-direction: column !important; }
       body .wrap .slider .slide .slide-content .buttons .btn {
         margin: 40px auto auto 10px; }
-  body #gallery-section .gallery-wrap .gallery-image {
-    width: 100% !important;
-    margin: 0 !important; }
   body .input-box {
     width: 100%;
     height: auto; }
